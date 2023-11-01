@@ -1,13 +1,11 @@
 import styled from "@emotion/styled";
 
-//quando eu passar para urbitávavel, posso substituir essas props por valores estáticos dentro do arquivo sass
-
 const DivEstilizada = styled.div`
-  padding: ${props => props.theme.espacamentos.l};
-  background: ${props => props.theme.cores.secundarias.a};
+  padding: 32px;
+  background: #e5f8de;
   border: 1px solid;
-  border-color: ${props => props.theme.cores.primarias.a};
-  border-radius: ${props => props.theme.espacamentos.s};
+  border-color: #2C4928;
+  border-radius: 16px;
 `;
 
 export const Card = ({ children }) => {

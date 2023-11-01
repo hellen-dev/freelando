@@ -1,6 +1,6 @@
 import styled from '@emotion/styled'
 
 export const Cabecalho = styled.header`
-    background: ${props => props.theme.cores.primarias.a};
+    background: #2C4928;
     padding: ${props => props.theme.espacamentos.m};
 `

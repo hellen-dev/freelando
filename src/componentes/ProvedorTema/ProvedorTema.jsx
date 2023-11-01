@@ -4,11 +4,11 @@ const tema = {
     cores: {
         branco: '#FFF',
         atencao: '',
-        focus: '#B009FF',
+        focus: '#16280D',
 
         primarias: {
-            a: '#5754ED',
-            b: '#D93114',
+            a: '#2C4928',
+            b: '#58774C',
             c: '',
         },
 

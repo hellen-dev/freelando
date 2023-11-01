@@ -58,9 +58,28 @@ function App() {
             <Col>
               <FreelandoLogo />
             </Col>
+
+            <Col style={{ textAlign: 'left' }}>
+              <Link>Página Inicial</Link>
+            </Col>
+
+            <Col style={{ textAlign: 'left' }}>
+              <Link>Sobre Nós</Link>
+            </Col>
+
+            <Col style={{ textAlign: 'left' }}>
+              <Link>Por Trás da Causa</Link>
+            </Col>
+
+            <Col style={{ textAlign: 'left' }}>
+              <Link>Privacidade</Link>
+            </Col>
+
             <Col style={{ textAlign: 'right' }}>
               <Link>Login</Link>
             </Col>
+
+
           </Row>
         </Container>
       </Cabecalho>
@@ -73,12 +92,10 @@ function App() {
             <Card>
               {/* n vou precisar disso de tipografia */}
               <Tipografia variante="h1" componente="h1">
-                Freelando
+                Urbitável
               </Tipografia>
               <Tipografia variante="body" componente="body">
-                Crie seu perfil gratuitamente para começar a trabalhar com os
-                melhores freelancers. Em seguida, você poderá dar mais detalhes
-                sobre suas demandas e sobre sua forma de trabalho.
+                Cadastre-se no nosso site e se torne um membro do nosso projeto e torne o mundo um lugar sustentável.
               </Tipografia>
 
               <Row>
@@ -141,8 +158,14 @@ function App() {
         <Container>
           <Row align="center">
             <Col>
-              <FreelandoLogo height={40} width={176} />
-              <Tipografia variante="legenda" componente="legenda">Desenvolvido por Alura. Projeto fictício sem fins comerciais.</Tipografia>
+              
+              <Tipografia variante="legenda" componente="legenda">
+                Hellen Assis <br />
+                Gabriel Machado <br />
+                Bianca Dancs <br />
+                Ana Laura Zerlin <br />
+                 
+              </Tipografia>
             </Col>
             <Col style={{ textAlign: 'right' }}>
               <Tipografia variante="legenda" componente="legenda">Acesse nossas redes:</Tipografia>

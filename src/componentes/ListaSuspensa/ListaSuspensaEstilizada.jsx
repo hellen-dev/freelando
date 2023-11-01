@@ -14,4 +14,6 @@ export const ListaSuspensaEstilizada = styled.ul`
     margin: 0;
     padding: 0 ${props => props.theme.espacamentos.m};
     list-style: none;
+    max-height: 200px; 
+    overflow-y: auto; 
 `
